@@ -1,0 +1,50 @@
+body {
+    width: 100%;
+    margin: auto;
+    color: #031C3B;
+    font-family: "Roboto", "Times New Roman", serif;
+  }
+  header {
+    background-color: antiquewhite;
+    padding: 1px;
+    margin-top: 2px;
+  }
+  #main-header {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5e8bea4ee8351b2bdef78066/960e1ef7-a000-4815-a647-1098a801b6bd/image-from-rawpixel-id-3293170-original.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    padding-top: 30px;
+    padding-left: 20px;
+    color: antiquewhite;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 4.5em;
+  }
+
+  .uppercase {
+    text-transform: uppercase;
+  }
+
+  #nav {
+    background-color: #031C3B;
+    height: 2.5em;   
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  nav > a {
+    text-decoration: none;
+    color: beige;
+  }
+
+  .font2em {
+    font-size: 2em;
+  }
