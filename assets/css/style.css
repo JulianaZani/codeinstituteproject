@@ -1,4 +1,4 @@
-body {
+  body {
     width: 100%;
     margin: auto;
     color: #031C3B;
@@ -7,9 +7,13 @@ body {
   }
 
   header {
-    background-color: antiquewhite;
+    background-color: #faebd7;
     padding: 1px;
     margin-top: 2px;
+  }
+
+  h1 {
+    font-size: 4.5em;
   }
 
   p {
@@ -20,42 +24,19 @@ body {
     margin-top: 1em;
   }
 
+  /* general formatting */
+
   .displayflex {
     display: flex;
   }
 
-  #main-header {
-    background-image: url(../images/bikestoppedonthestreet.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 400px;
-    padding-top: 30px;
+  .paddingtopleft20px {
     padding-left: 20px;
-    color: antiquewhite;
-    flex-flow: column nowrap;
-    justify-content: center;
-  }
-  
-  h1 {
-    font-size: 4.5em;
+    padding-top: 20px;
   }
 
   .uppercase {
     text-transform: uppercase;
-  }
-
-  #nav {
-    background-color: #031C3B;
-    height: 2.5em;   
-    margin-top: 2px;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  nav > a {
-    text-decoration: none;
-    color: antiquewhite;
   }
 
   .font2em {
@@ -66,27 +47,16 @@ body {
     height: 400px;
   }
 
-  .backgroundmountains {
-    background-image: url(../images/mansittingbesidebikesmaller.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .blur {
-    filter: blur(5px);
-  }
-
   .backgroundnavy {
     background-color: #031C3B;
-    color: antiquewhite;
+    color: #faebd7;
   }
 
   .section500px {
     height: 500px;
   }
 
-  .section350px {
+  .section200px {
     height: 200px;
   }
 
@@ -97,4 +67,38 @@ body {
 
   .whiteletter {
     color: rgb(247, 236, 236);
+  }
+
+/* specific formatting */
+
+  #main-header {
+    background-image: url(../images/bikestoppedonthestreet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    padding-top: 30px;
+    color: #faebd7;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+  
+  #nav {
+    background-color: #031C3B;
+    height: 2.5em;   
+    margin-top: 2px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  nav > a {
+    text-decoration: none;
+    color: #faebd7;
+  }
+
+  .backgroundmountains {
+    background-image: url(../images/mansittingbesidebikesmaller.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
