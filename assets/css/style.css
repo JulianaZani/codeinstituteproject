@@ -40,6 +40,10 @@
     padding-top: 20px;
   }
 
+  .margintop2px {
+    margin-top: 2px;
+  }
+
   .uppercase {
     text-transform: uppercase;
   }
