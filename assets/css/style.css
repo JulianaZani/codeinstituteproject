@@ -29,6 +29,11 @@
   .displayflex {
     display: flex;
   }
+  
+  .backgroundnavy {
+    background-color: #031C3B;
+    color: #faebd7;
+  }
 
   .paddingtopleft20px {
     padding-left: 20px;
@@ -47,9 +52,8 @@
     height: 400px;
   }
 
-  .backgroundnavy {
-    background-color: #031C3B;
-    color: #faebd7;
+  .img300px {
+    height: 340px;
   }
 
   .section500px {
@@ -63,6 +67,12 @@
   .spacearound-center {
     justify-content: space-around;
     align-items: center;
+  }
+  
+  .spacearound-center-rowreverse {
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
   }
 
   .whiteletter {
@@ -97,7 +107,7 @@
   }
 
   .backgroundmountains {
-    background-image: url(../images/mansittingbesidebikesmaller.jpeg);
+    background-image: url(../images/winterspin.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
