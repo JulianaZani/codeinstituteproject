@@ -7,13 +7,14 @@
   box-sizing: border-box;
   }
 
-  /* body */
+  /*page body */
   body {
     line-height: 1.6;
     color: #031C3B;
     font-family: "Roboto", "Times New Roman", serif;
     background-color: rgb(247, 236, 236);
   }
+
   /* header */
   header {
     background-color: #faebd7;
@@ -26,11 +27,24 @@
     font-family: 'Titillium Web', Geneva, Tahoma, sans-serif;
   }
 
+  #main-header {
+    background-image: url(../images/bikestoppedonthestreet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    padding-top: 30px;
+    color: #faebd7;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+
+  /* paragraph */
   p {
     font-size: large;
   }
   
-  /* nav */
+  /* navegation */
   #nav {
     background-color: #031C3B;
     height: 2.5em;   
@@ -52,10 +66,25 @@
   section div p {
     text-align: justify;
   }
+  
+  .section500px {
+    height: 500px;
+  }
 
+  .section200px {
+    height: 200px;
+  }
+
+  /* images */
+  .img400px {
+    height: 400px;
+  }
+
+  .img340px {
+    height: 340px;
+  }
 
   /* general formatting */
-
   .displayflex {
     display: flex;
   }
@@ -81,22 +110,6 @@
     font-size: 2em;
   }
 
-  .img400px {
-    height: 400px;
-  }
-
-  .img340px {
-    height: 340px;
-  }
-
-  .section500px {
-    height: 500px;
-  }
-
-  .section200px {
-    height: 200px;
-  }
-
   .spacearound-center {
     justify-content: space-around;
     align-items: center;
@@ -110,27 +123,6 @@
 
   .whiteletter {
     color: rgb(247, 236, 236);
-  }
-
-/* specific formatting */
-
-  #main-header {
-    background-image: url(../images/bikestoppedonthestreet.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 400px;
-    padding-top: 30px;
-    color: #faebd7;
-    flex-flow: column nowrap;
-    justify-content: center;
-  }
-
-  .backgroundmountains {
-    background-image: url(../images/winterspin.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
   }
 
   /* responsiveness */
@@ -152,26 +144,57 @@
 
   @media (max-width: 480px) {
     html {
-        font-size: 90%;
-        width: 100%;
-    }
+      font-size: 85%;
+  }
 
-    .section500px {
-        flex-direction: column;
-        text-align: center;
-    }
+  /* Ajustar o header */
+  #main-header {
+      height: auto;
+      padding: 20px 10px;
+  }
 
-    .img400px {
-        max-width: 260px;
-        max-height: 280px;
-    }
-    
-    .img340px {
-        max-width: 250px;
-        max-height: 280px;
-    }
+  h1 {
+      font-size: 2.5em;
+  }
 
-    .section200px p {
-        font-size: 85%;
-    }
+  #main-header p {
+    font-size: 1.5em;
+  }
+
+  /* Ajustar navegação */
+  #nav {
+      flex-direction: column; /* Empilhar os links */
+      align-items: center;
+      padding: 10px 0;
+  }
+
+  nav > a {
+      margin: 5px 0; /* Espaço entre os links */
+      font-size: 1em; /* Tamanho da fonte dos links */
+  }
+
+  /* section adjustment */
+  .section500px {
+      flex-direction: column;
+      text-align: center;
+      height: auto;
+  }
+
+  .section200px {
+      height: auto;
+  }
+
+  /* imagens */
+  .img400px, .img340px {
+      max-width: 100%;
+      height: auto;
+  }
+
+  .padding20px {
+      padding: 10px;
+  }
+
+  .margintop2px {
+      margin-top: 5px;
+  }
   }
