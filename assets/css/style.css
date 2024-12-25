@@ -147,7 +147,7 @@
       font-size: 85%;
   }
 
-  /* Ajustar o header */
+  /* Header adjustment */
   #main-header {
       height: auto;
       padding: 20px 10px;
@@ -161,16 +161,17 @@
     font-size: 1.5em;
   }
 
-  /* Ajustar navegação */
+  /* Navegation adjustment */
   #nav {
-      flex-direction: column; /* Empilhar os links */
+      flex-direction: column;
       align-items: center;
-      padding: 10px 0;
+      height: auto;
   }
 
   nav > a {
-      margin: 5px 0; /* Espaço entre os links */
-      font-size: 1em; /* Tamanho da fonte dos links */
+    display: block;
+    padding: 10px 15px;
+    font-size: 1em;
   }
 
   /* section adjustment */
