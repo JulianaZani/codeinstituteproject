@@ -7,13 +7,14 @@
   box-sizing: border-box;
   }
 
+  /* body */
   body {
     line-height: 1.6;
     color: #031C3B;
     font-family: "Roboto", "Times New Roman", serif;
     background-color: rgb(247, 236, 236);
   }
-
+  /* header */
   header {
     background-color: #faebd7;
     padding: 1px;
@@ -28,10 +29,30 @@
   p {
     font-size: large;
   }
+  
+  /* nav */
+  #nav {
+    background-color: #031C3B;
+    height: 2.5em;   
+    margin-top: 2px;
+    justify-content: space-around;
+    align-items: center;
+  }
 
+  nav > a {
+    text-decoration: none;
+    color: #faebd7;
+  }
+  
+  /* section */
   section {
     margin-top: 1em;
   }
+
+  section div p {
+    text-align: justify;
+  }
+
 
   /* general formatting */
 
@@ -44,9 +65,8 @@
     color: #faebd7;
   }
 
-  .paddingtopleft20px {
-    padding-left: 20px;
-    padding-top: 20px;
+  .padding20px {
+    padding: 20px;
   }
 
   .margintop2px {
@@ -65,7 +85,7 @@
     height: 400px;
   }
 
-  .img300px {
+  .img340px {
     height: 340px;
   }
 
@@ -105,23 +125,53 @@
     flex-flow: column nowrap;
     justify-content: center;
   }
-  
-  #nav {
-    background-color: #031C3B;
-    height: 2.5em;   
-    margin-top: 2px;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  nav > a {
-    text-decoration: none;
-    color: #faebd7;
-  }
 
   .backgroundmountains {
     background-image: url(../images/winterspin.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+  }
+
+  /* responsiveness */
+  @media (max-width: 768px) {
+    #nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section500px {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .img400px {
+        max-width: 300px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    html {
+        font-size: 90%;
+        width: 100%;
+    }
+
+    .section500px {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .img400px {
+        max-width: 260px;
+        max-height: 280px;
+    }
+    
+    .img340px {
+        max-width: 250px;
+        max-height: 280px;
+    }
+
+    .section200px p {
+        font-size: 85%;
+    }
   }
