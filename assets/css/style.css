@@ -141,76 +141,64 @@
   }
 
   /* responsiveness */
-  @media (max-width: 768px) {
-    #nav {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .section500px {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .img400px {
-        max-width: 300px;
-    }
+@media (max-width: 768px) {
+  
+  h1 {
+    font-size: 2.5em;
   }
 
-  @media (max-width: 480px) {
-    html {
-      font-size: 85%;
+  p {
+    font-size: medium;
   }
 
   /* Header adjustment */
   #main-header {
-      height: auto;
-      padding: 20px 10px;
+    height: auto;
+    padding: 20px;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
   }
 
-  h1 {
-      font-size: 2.5em;
+  /* Images*/
+  .img400px, .img340px {
+    height: auto;
+    max-width: 100%;
   }
 
-  #main-header p {
-    font-size: 1.5em;
-  }
-
-  /* Navegation adjustment */
+  /* Navegation */
   #nav {
-      flex-direction: column;
-      align-items: center;
-      height: auto;
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
   }
 
   nav > a {
-    display: block;
-    padding: 10px 15px;
-    font-size: 1em;
+    padding: 10px 0;
   }
 
-  /* section adjustment */
-  .section500px {
-      flex-direction: column;
-      text-align: center;
-      height: auto;
+  /* Sections */
+  .section500px, .section200px {
+    height: auto;
+    padding: 10px;
+    flex-direction: column;
+    text-align: center;
   }
 
-  .section200px {
-      height: auto;
+  /* Divs */
+  .spacearound-center, .spacearound-center-rowreverse {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  
+  #nav {
+    font-size: 0.9em;
   }
 
-  /* imagens */
-  .img400px, .img340px {
-      max-width: 100%;
-      height: auto;
+  p, h2 {
+    font-size: 0.9em;
   }
-
-  .padding20px {
-      padding: 10px;
-  }
-
-  .margintop2px {
-      margin-top: 5px;
-  }
-  }
+}
