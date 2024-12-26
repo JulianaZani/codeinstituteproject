@@ -84,6 +84,21 @@
     height: 340px;
   }
 
+  /* footer */
+  footer {
+    background-color: rgb(163, 161, 161);
+    text-align: center;
+    flex-flow: column wrap;
+  }
+
+  footer div {
+    padding: 5px 10px;
+  }
+
+  footer div a {
+    color: #031C3B;
+  }
+
   /* general formatting */
   .displayflex {
     display: flex;
