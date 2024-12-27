@@ -165,7 +165,10 @@
 
   /* form */
   .background-image {
-    background-image: url(../images/manstaringmountains.jpeg);
+    background-image: url(../images/manstaringmountainstesttest.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   /* general  */
