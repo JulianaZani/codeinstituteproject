@@ -27,6 +27,10 @@
     font-family: 'Titillium Web', Geneva, Tahoma, sans-serif;
   }
 
+  h2, h3 {
+    font-family: 'Titillium Web', 'Arial Narrow', Arial, sans-serif;
+  }
+
   #main-header {
     background-image: url(../images/bikestoppedonthestreet.jpg);
     background-size: cover;
@@ -98,15 +102,31 @@
   footer div a {
     color: #031C3B;
   }
-
-  /* general formatting */
+  /* Courses Boxes */
+  .box-borderradius {
+    padding: 10px 5px 25px 5px;
+    border-radius: 8px;
+    width: 100%;
+    margin: 2%;
+    background-color: #031C3B;
+    color: #faebd7;
+    position: relative;
+    left: 20%;
+    top: 30px;
+  }
+  
+  /* Display Flex */
   .displayflex {
     display: flex;
   }
-  
+
   .backgroundnavy {
     background-color: #031C3B;
     color: #faebd7;
+  }
+
+  .backgroundlighter {
+    background-color: #faf6f1;
   }
 
   .padding20px {
@@ -150,6 +170,14 @@
 
   .whiteletter {
     color: rgb(247, 236, 236);
+  }
+
+  .one-third-width-column {
+    width: 33.33%;
+  }
+
+  .vertical-center {
+    align-self: center;
   }
 
   /* responsiveness */
