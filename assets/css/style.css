@@ -61,6 +61,11 @@
     text-decoration: none;
     color: #faebd7;
   }
+
+  a:hover {
+    text-decoration: none;
+    color: rgb(235, 131, 5);
+  }
   
   /* section */
   section {
@@ -114,49 +119,19 @@
     left: 20%;
     top: 30px;
   }
-  
-  /* Display Flex */
-  .displayflex {
-    display: flex;
-  }
 
-  .backgroundnavy {
-    background-color: #031C3B;
-    color: #faebd7;
-  }
-
-  .backgroundgray {
-    background-color: rgb(160, 160, 160);
-  }
-  
   ul, ol {
     padding: 0;
     list-style-type: none;
   }
+
+  .one-third-width-column {
+    width: 33.33%;
+  }
   
-
-  .padding20px {
-    padding: 20px;
-  }
-
-  .margintop2px {
-    margin-top: 2px;
-  }
-
-  .bold {
-    font-weight: bold;
-  }
-
-  .center {
-    text-align: center;
-  }
-
-  .uppercase {
-    text-transform: uppercase;
-  }
-
-  .font2em {
-    font-size: 2em;
+  /* Display Flex */
+  .displayflex {
+    display: flex;
   }
 
   .spacearound-center {
@@ -174,27 +149,53 @@
     gap: 20px
   }
 
-  .whiteletter {
-    color: rgb(247, 236, 236);
-  }
-
-  .one-third-width-column {
-    width: 33.33%;
-  }
-
   .vertical-center {
     align-self: center;
   }
 
-  a:hover {
-    text-decoration: none;
-    color: rgb(235, 131, 5);
+  /* background color */
+  .backgroundnavy {
+    background-color: #031C3B;
+    color: #faebd7;
+  }
+
+  .backgroundgray {
+    background-color: rgb(160, 160, 160);
+  }
+
+  /* general  */
+
+  .bold {
+    font-weight: bold;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .uppercase {
+    text-transform: uppercase;
+  }
+
+  .font2em {
+    font-size: 2em;
+  }
+
+  .whiteletter {
+    color: rgb(247, 236, 236);
+  }
+
+  .padding20px {
+    padding: 20px;
+  }
+
+  .margintop2px {
+    margin-top: 2px;
   }
 
   /* responsiveness */
-/* Responsividade */
 
-/* Ajustes para dispositivos menores que 768px */
+/* Adjustments for devices smaller than 768px */
 @media (max-width: 768px) {
   h1 {
       font-size: 3em;
@@ -242,7 +243,7 @@
   }
 }
 
-/* Ajustes para dispositivos menores que 480px */
+/* Adjustments for devices smaller than 480px*/
 @media (max-width: 480px) {
   h1 {
       font-size: 2.5em;
