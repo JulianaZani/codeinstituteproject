@@ -125,9 +125,15 @@
     color: #faebd7;
   }
 
-  .backgroundlighter {
-    background-color: #faf6f1;
+  .backgroundgray {
+    background-color: rgb(160, 160, 160);
   }
+  
+  ul, ol {
+    padding: 0;
+    list-style-type: none;
+  }
+  
 
   .padding20px {
     padding: 20px;
