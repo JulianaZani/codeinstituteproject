@@ -186,6 +186,11 @@
     align-self: center;
   }
 
+  a:hover {
+    text-decoration: none;
+    color: rgb(235, 131, 5);
+  }
+
   /* responsiveness */
 @media (max-width: 768px) {
   
