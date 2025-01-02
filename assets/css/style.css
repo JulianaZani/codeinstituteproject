@@ -6,9 +6,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-main {
-  margin-bottom: 15px;
-}
 
 /*page body */
 body {
@@ -200,6 +197,10 @@ ol {
 
 .whiteletter {
   color: rgb(247, 236, 236);
+}
+
+.navyletter {
+  color: #031C3B;
 }
 
 .padding20px {
