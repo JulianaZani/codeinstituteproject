@@ -88,10 +88,12 @@ section div p {
 /* images */
 .img400px {
   height: 400px;
+  width: 100%;
 }
 
 .img340px {
   height: 340px;
+  width: 100%;
 }
 
 /* footer */
