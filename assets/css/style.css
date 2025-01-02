@@ -264,6 +264,7 @@ ol {
 @media (max-width: 480px) {
   h1 {
     font-size: 2.5em;
+    background-color: #031c3b9f;
   }
 
   h2,
