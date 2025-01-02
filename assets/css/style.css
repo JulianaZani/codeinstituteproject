@@ -118,10 +118,11 @@ footer div a {
 .box-borderradius {
   padding: 10px 5px 25px 5px;
   border-radius: 8px;
+  height: 300px;
   width: 100%;
   margin: 2%;
-  background-color: #031C3B;
-  color: #faebd7;
+  background-color: #faebd7;
+  color: #031C3B;
   position: relative;
   left: 20%;
   top: 30px;
