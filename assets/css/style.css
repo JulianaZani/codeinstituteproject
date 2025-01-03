@@ -136,11 +136,10 @@ footer div a {
 
 /* Courses Boxes */
 .box-borderradius {
-  padding: 10px 5px 25px 5px;
+  padding: 3px;
   border-radius: 8px;
   height: 200px;
-  width: 100%;
-  margin: 2%;
+  width: auto;
   background-color: #faebd7;
   color: #031C3B;
   position: relative;
@@ -317,6 +316,15 @@ ol {
     margin: 0 auto;
     position: relative;
   }
+
+  /* courses sections */
+  .box-borderradius {
+    width: auto;
+    left: 0;
+    top: 0;
+    margin: 10px;
+    height: auto;
+  }
 }
 
 /* Adjustments for devices smaller than 480px*/
@@ -353,5 +361,6 @@ ol {
     left: 0;
     top: 0;
     margin: 10px;
+    height: auto;
   }
 }
