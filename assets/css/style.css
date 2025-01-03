@@ -330,7 +330,7 @@ ol {
   }
 
   /* courses sections */
-  .box-borderradius {
+  .box-borderradius, .second-box-borderradius {
     width: auto;
     left: 0;
     top: 0;
@@ -368,11 +368,4 @@ ol {
     gap: 10px;
   }
 
-  .box-borderradius {
-    width: auto;
-    left: 0;
-    top: 0;
-    margin: 10px;
-    height: auto;
-  }
 }
