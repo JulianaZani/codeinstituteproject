@@ -50,22 +50,46 @@ p {
 }
 
 /* navegation */
+/* Navegação Geral */
 #nav {
   background-color: #031C3B;
-  height: 2.5em;
-  margin-top: 2px;
+  display: flex;
+  height: 3em;
+  margin: 0;
+  padding: 0 1em;
   justify-content: space-around;
   align-items: center;
+  position: relative;
+  z-index: 10;
 }
 
-nav>a {
+nav > a {
   text-decoration: none;
   color: #faebd7;
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+  transition: color 0.3s ease-in-out;
 }
 
 a:hover {
-  text-decoration: none;
   color: rgb(235, 131, 5);
+}
+
+/* Ícone do Menu */
+.navtogglelabel {
+  display: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+/* Checkbox escondido */
+#navtoggle {
+  display: none;
+}
+
+/* Responsividade do Menu */
+#nav {
+  display: flex;
 }
 
 /* section */
@@ -268,7 +292,36 @@ ol {
     flex-direction: column;
     text-align: center;
   }
+
+  #nav {
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 3em;
+    left: 0;
+    right: 0;
+    background-color: #031C3B;
+    height: auto;
+    display: none;
+    padding: 1em 0;
+  }
+
+  #navtoggle:checked + .navtogglelabel + #nav {
+    display: flex;
+  }
+
+  nav > a {
+    padding: 0.5em 1em;
+    width: 100%;
+    text-align: left;
+    font-size: 1.2rem;
+  }
+
+  .navtogglelabel {
+    display: block;
+  }
 }
+
 
 /* Adjustments for devices smaller than 480px*/
 @media (max-width: 480px) {
