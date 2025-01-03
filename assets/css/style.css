@@ -147,13 +147,25 @@ footer div a {
   top: 30px;
 }
 
+.second-box-borderradius {
+  padding: 3px;
+  border-radius: 8px;
+  height: 200px;
+  width: auto;
+  background-color: #faebd7;
+  color: #031C3B;
+  position: relative;
+  right: 5%;
+  top: 30px;
+}
+
 ul,
 ol {
   padding: 0;
   list-style-type: none;
 }
 
-.one-third-width-column {
+.fifty-width-column {
   width: 50%;
 }
 
@@ -181,7 +193,7 @@ ol {
   align-self: center;
 }
 
-/* background */
+/* backgrounds color */
 .backgroundnavy {
   background-color: #031C3B;
   color: #faebd7;
