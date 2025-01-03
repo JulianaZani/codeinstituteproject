@@ -50,7 +50,6 @@ p {
 }
 
 /* navegation */
-/* Navegação Geral */
 #nav {
   background-color: #031C3B;
   display: flex;
@@ -75,21 +74,16 @@ a:hover {
   color: rgb(235, 131, 5);
 }
 
-/* Ícone do Menu */
+/* Menu icon */
 .navtogglelabel {
   display: none;
   cursor: pointer;
   font-size: 1.5rem;
 }
 
-/* Checkbox escondido */
+/* Invisible checkbox */
 #navtoggle {
   display: none;
-}
-
-/* Responsividade do Menu */
-#nav {
-  display: flex;
 }
 
 /* section */
