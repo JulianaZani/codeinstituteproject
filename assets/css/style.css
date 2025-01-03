@@ -104,6 +104,10 @@ section div p {
 }
 
 /* images */
+.img530px {
+  height: 530px;
+  width: 100%;
+}
 .img450px {
   height: 450px;
   width: 100%;
@@ -144,7 +148,7 @@ footer div a {
   color: #031C3B;
   position: relative;
   left: 5%;
-  top: 30px;
+  top: 50px;
 }
 
 .second-box-borderradius {
@@ -155,8 +159,8 @@ footer div a {
   background-color: #faebd7;
   color: #031C3B;
   position: relative;
-  right: 5%;
-  top: 30px;
+  right: 7%;
+  top: 10px;
 }
 
 ul,
