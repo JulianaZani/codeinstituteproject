@@ -62,7 +62,7 @@ p {
   z-index: 10;
 }
 
-nav > a {
+nav>a {
   text-decoration: none;
   color: #faebd7;
   font-family: 'Arial', sans-serif;
@@ -108,6 +108,7 @@ section div p {
   height: 530px;
   width: 100%;
 }
+
 .img450px {
   height: 450px;
   width: 100%;
@@ -138,11 +139,12 @@ footer div a {
   color: #031C3B;
 }
 
+/* Courses Page */
 /* Courses Boxes */
 .box-borderradius {
   padding: 3px;
   border-radius: 8px;
-  height: 200px;
+  height: 220px;
   width: auto;
   background-color: #faebd7;
   color: #031C3B;
@@ -154,7 +156,7 @@ footer div a {
 .second-box-borderradius {
   padding: 3px;
   border-radius: 8px;
-  height: 200px;
+  height: 220px;
   width: auto;
   background-color: #faebd7;
   color: #031C3B;
@@ -251,6 +253,16 @@ ol {
 
 /* responsiveness */
 
+@media (max-width: 960px) {
+
+  .box-borderradius,
+  .second-box-borderradius {
+    height: 220px;
+    font-size: small;
+    padding: 15px 2px 2px 2px;
+  }
+}
+
 /* Adjustments for devices smaller than 768px */
 @media (max-width: 768px) {
   h1 {
@@ -315,11 +327,11 @@ ol {
     padding: 1em 0;
   }
 
-  #navtoggle:checked + .navtogglelabel + #nav {
+  #navtoggle:checked+.navtogglelabel+#nav {
     display: flex;
   }
 
-  nav > a {
+  nav>a {
     padding: 0.5em 1em;
     width: 100%;
     text-align: left;
@@ -332,15 +344,13 @@ ol {
     margin: 0 auto;
     position: relative;
   }
-
-  /* courses sections */
-  .box-borderradius, .second-box-borderradius {
-    width: auto;
-    left: 0;
-    top: 0;
-    margin: 10px;
-    height: auto;
+  .box-borderradius,
+  .second-box-borderradius {
+    height: 245px;
+    font-size: small;
+    padding: 10px 2px 2px 2px;
   }
+
 }
 
 /* Adjustments for devices smaller than 480px*/
@@ -370,6 +380,14 @@ ol {
 
   .gap20px {
     gap: 10px;
+  }
+
+  .box-borderradius,
+  .second-box-borderradius {
+    height: auto;
+    width: 200px;
+    font-size: small;
+    padding: 5px;
   }
 
 }
