@@ -313,9 +313,11 @@ ol {
 
   .navtogglelabel {
     display: block;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
   }
 }
-
 
 /* Adjustments for devices smaller than 480px*/
 @media (max-width: 480px) {
