@@ -175,6 +175,20 @@ ol {
   width: 50%;
 }
 
+/* form page */
+form {
+  width: 95%;
+	border-radius: 5px;
+	margin: 25px auto;
+  background-color: #fcf7f0;
+  color: #031C3B;
+}
+
+fieldset {
+	border: none;
+	margin-top: 20px;
+}
+
 /* Display Flex */
 .displayflex {
   display: flex;
@@ -197,6 +211,10 @@ ol {
 
 .vertical-center {
   align-self: center;
+}
+
+.column-wrap {
+  flex-flow: column wrap;
 }
 
 /* backgrounds color */
