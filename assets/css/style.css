@@ -182,11 +182,32 @@ form {
 	margin: 25px auto;
   background-color: #fcf7f0;
   color: #031C3B;
+  padding: 1%;
 }
 
 fieldset {
 	border: none;
 	margin-top: 20px;
+}
+
+input[type=submit] {
+	margin-top: 20px;
+	margin-left: 0.75rem;
+	padding: 1.2rem;
+	background-color: #031C3B;
+	color: #faebd7;
+	border: 1px solid #031C3B;
+	border-radius: 5px;
+}
+
+input[type=reset] {
+    margin-top: 20px;
+    margin-left: 0.75rem;
+    padding: 0.6rem;
+    background-color: #faebd7;
+    color:#031C3B;
+    border: 1px solid #031C3B;
+    border-radius: 5px;
 }
 
 /* Display Flex */
@@ -225,14 +246,6 @@ fieldset {
 
 .backgroundgray {
   background-color: rgb(160, 160, 160);
-}
-
-/* form */
-.background-image {
-  background-image: url(../images/manstaringmountainstesttest.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 /* general  */
