@@ -1,30 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- meta tags for search engines -->
-    <meta name="description" content="Keeping Bike. Bike mechanic course. Learn how to be a bicycle mechanic">
-    <meta name="keywords"
-        content="Keeping bike, mechanic course, bike course, bicycle, courses, mechanic, bicycle course">
-    <!-- title -->
-    <title>Keeping Bike</title>
-    <!-- style -->
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-    <!-- favicon -->
-    <link rel="icon" href="assets/favicon/android-chrome-192x192.png" type="png">
-    <link rel="icon" href="assets/favicon/apple-touch-icon.png" type="png">
-    <link rel="icon" href="assets/favicon/favicon.ico" type="ico">
+    <title>Keeping Bike Register</title>
+<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+<!-- favicon -->
+<link rel="icon" href="assets/favicon/android-chrome-192x192.png" type="png">
+<link rel="icon" href="assets/favicon/apple-touch-icon.png" type="png">
+<link rel="icon" href="assets/favicon/favicon.ico" type="ico">
 </head>
-
 <body>
 
-    <header id="home">
+    <header>
 
-        <div id="main-header" class="displayflex padding20px">
+        <div>
+
             <h1>Keeping Bike</h1>
-            <p class="uppercase font2em orangeletter">Bike Mechanic Course</p>
+            <p class="font2em uppercase">Register</p>
+            
         </div>
 
         <div class="uppercase">
@@ -33,10 +27,10 @@
             <label for="navtoggle" class="navtogglelabel"><i class="fa-solid fa-bars"></i></label>
 
             <nav id="nav" class="displayflex">
-                <a href="#home" aria-label="Go to the top of the page">Home</a>
+                <a href="index.html#home" aria-label="Go to the top of the page">Home</a>
                 <a href="courses.html" aria-label="Go to course options section">Course Options</a>
                 <a href="courses.html#contact" aria-label="Go to contact information section">Contact</a>
-                <a href="form.html" aria-label="Go to register section">Register</a>
+                <a href="#form" aria-label="Go to register section">Register</a>
             </nav>
 
         </div>
@@ -45,17 +39,18 @@
 
     <main>
 
-        <form action="">
+        <form action="" method="post" class="background-image whiteletter">
 
             <fieldset>
+
                 <legend>Your details</legend>
-                <div class="displayflex gap20px">
+                <div>
                     <div>
-                        <label for="name-field" class="block-label">Name</label>
+                        <label for="name-field" class="label">Name</label>
                         <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
                     </div>
                     <div>
-                        <label for="email-field" class="block-label">Email</label>
+                        <label for="email-field" class="label">Email</label>
                         <input id="email-field" type="email" name="email" placeholder="Your email" required>
                     </div>
                     <div>
@@ -66,10 +61,12 @@
                         <label for="number" class="label">Telephone Number</label>
                         <input id="number" type="number" name="number" placeholder="Your Telephone Number" required>
                     </div>
+                </div>
+
             </fieldset>
 
             <fieldset>
-
+                
                 <legend>Choose your courses</legend>
                 <p>Choose the course you are interested in</p>
                 <div>
@@ -89,8 +86,8 @@
                 <p>Any information or questions?</p>
                 <div>
                     <label for="note">Write to us here</label>
-                    <br>
-                    <textarea id="note" rows="5" cols="80" name="note"></textarea>
+                <br>
+                <textarea id="note" rows="5" cols="80" name="note"></textarea>
                 </div>
 
             </fieldset>
@@ -99,37 +96,9 @@
 
             <input type="reset" value="Reset Form">
 
-
         </form>
 
     </main>
 
-    <footer class="displayflex">
-        <div class="uppercase displayflex spacearound-center">
-
-            <a href="https://www.facebook.com" target="_blank" rel="noopener"
-                aria-label="Find us on Facebook (link opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener"
-                aria-label="Find us on Instagram (link opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener"
-                aria-label="Find us on Twitter (link opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
-            <a href="https://www.youtube.com" target="_blank" rel="noopener"
-                aria-label="Find us on Youtube (link opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
-
-
-        </div>
-
-        <div class="backgroundnavy">
-
-            <p>Copyright © Keeping Bike 2020</p>
-
-        </div>
-
-    </footer>
-
-    <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/a0b8584c12.js" crossorigin="anonymous"></script>
-
 </body>
-
 </html>
