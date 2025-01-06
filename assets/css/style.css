@@ -56,6 +56,18 @@ h3 {
   justify-content: center;
 }
 
+#courses-header {
+  background-image: url(../images/winterspin.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  padding-top: 30px;
+  color: #faebd7;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
 /* paragraph */
 p {
   font-size: large;
@@ -352,7 +364,9 @@ input[type=tel] {
     font-size: 1.5em;
   }
 
-  #main-header {
+  #main-header,
+  #form-header,
+  #courses-header {
     height: 300px;
   }
 
@@ -417,8 +431,6 @@ input[type=tel] {
     margin: 0 auto;
     position: relative;
   }
-  
-  
 
   .box-borderradius,
   .second-box-borderradius {
@@ -438,7 +450,7 @@ input[type=tel] {
   }
 
   .box-fieldset {
-    width: 280px;
+    width: 270px;
   }
 
 }
