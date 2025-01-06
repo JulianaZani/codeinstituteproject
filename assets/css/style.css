@@ -227,7 +227,7 @@ input[type=reset] {
 
 legend {
   font-size: x-large;
-	font-weight: 600;
+  font-weight: 900;
 	text-transform: uppercase;
 	margin: 20px 0 10px 0;
   color: #031C3B;
@@ -383,11 +383,6 @@ input[type=tel] {
     flex-direction: column;
   }
 
-  footer div {
-    flex-direction: column;
-    text-align: center;
-  }
-
   #nav {
     flex-direction: column;
     align-items: flex-start;
@@ -426,6 +421,20 @@ input[type=tel] {
     padding: 10px 2px 2px 2px;
   }
 
+  /* form */
+
+  form {
+    font-size: small;
+  }
+  
+  legend {
+    font-size: large;
+  }
+
+  .box-fieldset {
+    width: 280px;
+
+  }
 }
 
 /* Adjustments for devices smaller than 480px*/
