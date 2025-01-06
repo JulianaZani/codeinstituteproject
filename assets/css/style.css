@@ -222,7 +222,8 @@ legend {
 
 input[type=text],
 input[type=email],
-input[type=number] {
+input[type=number],
+input[type=tel] {
     height: 30px;
     padding-left: 10px;
 	  margin: 0 auto;
