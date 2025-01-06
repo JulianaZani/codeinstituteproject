@@ -220,6 +220,14 @@ legend {
 	margin: 20px 0 10px 0;
 }
 
+input[type=text],
+input[type=email],
+input[type=number] {
+    height: 30px;
+    padding-left: 10px;
+	  margin: 0 auto;
+}
+
 /* Display Flex */
 .displayflex {
   display: flex;
