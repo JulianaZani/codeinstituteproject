@@ -15,7 +15,7 @@ body {
   background-color: #faebd7;
 }
 
-/* header */
+/* headers */
 header {
   background-color: #faebd7;
   padding: 1px;
@@ -44,18 +44,6 @@ h3 {
   justify-content: center;
 }
 
-#form-header {
-  background-image: url(../images/mansittingbesidebike.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 400px;
-  padding-top: 30px;
-  color: #faebd7;
-  flex-flow: column nowrap;
-  justify-content: center;
-}
-
 #courses-header {
   background-image: url(../images/winterspin.jpg);
   background-size: cover;
@@ -66,6 +54,16 @@ h3 {
   color: #faebd7;
   flex-flow: column nowrap;
   justify-content: center;
+}
+
+#form-header {
+  background-color: #031C3B;
+  height: 400px;
+  padding-top: 30px;
+  color: #faebd7;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin-bottom: 1px;
 }
 
 /* paragraph */
@@ -110,7 +108,7 @@ a:hover {
   display: none;
 }
 
-/* section */
+/* sections */
 section {
   margin-top: 1em;
 }
@@ -164,7 +162,6 @@ footer div a {
 }
 
 /* Courses Page */
-/* Courses Boxes */
 .box-borderradius {
   padding: 3px;
   border-radius: 8px;
@@ -206,6 +203,7 @@ form {
   background-repeat: no-repeat;
   background-position: center;
   padding: 5%;
+  margin-top: 2px;
 }
 
 fieldset {
