@@ -198,6 +198,8 @@ input[type=submit] {
 	color: #faebd7;
 	border: 1px solid #031C3B;
 	border-radius: 5px;
+  width: 20%;
+  font-size: medium;
 }
 
 input[type=reset] {
@@ -208,6 +210,14 @@ input[type=reset] {
     color:#031C3B;
     border: 1px solid #031C3B;
     border-radius: 5px;
+    width: 15%;
+}
+
+legend {
+  font-size: large;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 20px 0 10px 0;
 }
 
 /* Display Flex */
