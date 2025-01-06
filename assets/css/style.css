@@ -42,6 +42,7 @@ h3 {
   color: #faebd7;
   flex-flow: column nowrap;
   justify-content: center;
+  margin-bottom: 1px;
 }
 
 #courses-header {
@@ -54,6 +55,7 @@ h3 {
   color: #faebd7;
   flex-flow: column nowrap;
   justify-content: center;
+  margin-bottom: 1px;
 }
 
 #form-header {
