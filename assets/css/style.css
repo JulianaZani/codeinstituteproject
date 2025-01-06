@@ -44,6 +44,18 @@ h3 {
   justify-content: center;
 }
 
+#form-header {
+  background-image: url(../images/mansittingbesidebike.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  padding-top: 30px;
+  color: #faebd7;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
 /* paragraph */
 p {
   font-size: large;
@@ -177,17 +189,17 @@ ol {
 
 /* form page */
 form {
-  width: 95%;
-	border-radius: 5px;
-	margin: 25px auto;
-  background-color: #fcf7f0;
-  color: #031C3B;
-  padding: 1%;
+  background-image: url(../images/mansittingbesidebike1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 5%;
 }
 
 fieldset {
 	border: none;
-	margin-top: 20px;
+	margin-top: 10px;
+  padding: 1%;
 }
 
 input[type=submit] {
@@ -214,10 +226,11 @@ input[type=reset] {
 }
 
 legend {
-  font-size: large;
+  font-size: x-large;
 	font-weight: 600;
 	text-transform: uppercase;
 	margin: 20px 0 10px 0;
+  color: #031C3B;
 }
 
 input[type=text],
@@ -227,6 +240,11 @@ input[type=tel] {
     height: 30px;
     padding-left: 10px;
 	  margin: 0 auto;
+}
+.box-fieldset {
+  background-color: #031c3b68;
+  color: #faebd7;
+  width: 320px;
 }
 
 /* Display Flex */
