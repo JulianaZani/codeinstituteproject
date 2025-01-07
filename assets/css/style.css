@@ -376,11 +376,6 @@ input[type=tel] {
     height: auto;
   }
 
-  .displayflex {
-    flex-direction: column;
-    text-align: center;
-  }
-
   #nav {
     flex-direction: column;
     height: auto;
