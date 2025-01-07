@@ -434,6 +434,10 @@ input[type=tel] {
     padding: 10px 2px 2px 2px;
   }
 
+  footer > div.uppercase {
+    flex-direction: row;
+  }
+
   /* form responsiveness*/
 
   form {
