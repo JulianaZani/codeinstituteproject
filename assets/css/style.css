@@ -429,9 +429,13 @@ input[type=tel] {
 
   .box-borderradius,
   .second-box-borderradius {
-    height: 245px;
+    height: 260px;
     font-size: small;
     padding: 10px 2px 2px 2px;
+  }
+
+  main > section:first-of-type {
+    flex-direction: column;
   }
 
   footer > div.uppercase {
