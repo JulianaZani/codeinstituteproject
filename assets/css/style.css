@@ -299,6 +299,11 @@ input[type=tel] {
 
 /* General formatting */
 
+mark {
+  background-color: #faebd7;
+  color: #031C3B;
+}
+
 .bold {
   font-weight: bold;
 }
