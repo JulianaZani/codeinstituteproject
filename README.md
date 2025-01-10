@@ -38,4 +38,8 @@ More details about the courses offered by Keeping Bike can be found on this page
 The orange header says "courses" so users know which page they are on.  
 The navigation bar is available for all pages.  
 
-![Courseheader](assets/images/Screenshot%202025-01-10%20160516.png)  
+![CourseHeader](assets/images/Screenshot%202025-01-10%20160516.png)  
+
+The link to the registration page is at the end of the main page, making it easier for users to navigate.  
+
+![CourseMain](assets/images/Screenshot%202025-01-10%20160548.png)  
