@@ -15,3 +15,10 @@ This website is for presenting what the company offers. The website, in addition
 
 Into the header we may see the name of the company and in orange we may check what the company sells (Bike mechanic course).  
 In the navegation the users are able to go to courses page (for to see more details about each course), contact section, form to register and to return to home page.  
+
+![header](assets/images/Screenshot%202025-01-10%20152053.png)  
+
+In the first presentation, users who identify with the company's proposal will remain on the website.  
+In main section the users will see more about what the Keeping Bike is offering.  
+The illustrations refer to bicycle parts.  
+
