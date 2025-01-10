@@ -24,11 +24,11 @@ The illustrations refer to bicycle parts.
 
 ![Main](assets/images/Screenshot%202025-01-10%20154254.png)  
 
-At the end of the main page, users can see a link that directs them to another page (to know more about the course options).
+At the end of the main page, users can see a link that directs them to another page (to know more about the course options).  
 
 ![MainContinued](assets/images/Screenshot%202025-01-10%20154648.png)  
 
-Into the footer we have the social media that opens on a separate page
+Into the footer we have the social media that opens on a separate page.  
 
 ![Footer](assets/images/Screenshot%202025-01-10%20155755.png)  
 
@@ -40,6 +40,12 @@ The navigation bar is available for all pages.
 
 ![CourseHeader](assets/images/Screenshot%202025-01-10%20160516.png)  
 
-The link to the registration page is at the end of the main page, making it easier for users to navigate.  
+The link to the registration page is at almost the end of the main page, making it easier for users to navigate.  
 
 ![CourseMain](assets/images/Screenshot%202025-01-10%20160548.png)  
+
+To finish the main part of this page we find the contact information.  
+The social media footer remains on this page near the contact section as they are also forms of contact.  
+
+![CourseMainFooter](assets/images/Screenshot%202025-01-10%20163810.png)  
+
