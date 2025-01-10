@@ -1,3 +1,4 @@
+/* Titillium Web Font */
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
 /* Reset */
@@ -109,7 +110,7 @@ a:hover {
   display: none;
 }
 
-/* sections */
+/* Sections */
 section {
   margin-top: 1em;
 }
@@ -300,8 +301,8 @@ input[type=tel] {
 /* General formatting */
 
 mark {
-  background-color: #faebd7;
-  color: #031C3B;
+  background-color: #031C3B;
+  color: #faebd7;
 }
 
 .bold {
@@ -466,7 +467,6 @@ mark {
 @media (max-width: 480px) {
   h1 {
     font-size: 2.5em;
-    background-color: #031c3b9f;
   }
 
   h2,
