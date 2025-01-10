@@ -22,4 +22,8 @@ In the first presentation, users who identify with the company's proposal will r
 In main section the users will see more about what the Keeping Bike is offering.  
 The illustrations refer to bicycle parts.  
 
-![Main]()
+![Main](assets/images/Screenshot%202025-01-10%20154254.png)  
+
+At the end of the main page, users can see a link that directs them to another page (to know more about the course options).
+
+![MainContinued](assets/images/Screenshot%202025-01-10%20154648.png)
