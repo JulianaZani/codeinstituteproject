@@ -31,3 +31,11 @@ At the end of the main page, users can see a link that directs them to another p
 Into the footer we have the social media that opens on a separate page
 
 ![Footer](assets/images/Screenshot%202025-01-10%20155755.png)  
+
+### Courses.html  
+
+More details about the courses offered by Keeping Bike can be found on this page.  
+The orange header says "courses" so users know which page they are on.  
+The navigation bar is available for all pages.  
+
+![Courseheader](assets/images/Screenshot%202025-01-10%20160516.png)  
