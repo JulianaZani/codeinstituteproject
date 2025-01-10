@@ -9,7 +9,7 @@ This website is for presenting what the company offers. The website, in addition
 
 ![Amiresponsivesite](assets/images/Screenshot%202025-01-10%20085054.png)  
 
-## Feautures  
+## Features  
 
 ### Index.html  
 
