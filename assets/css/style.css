@@ -345,7 +345,8 @@ mark {
   font-size: small;
 }
 
-/* Responsiveness */
+/* Media queries */
+
 /* Adjustments for devices smaller than 960px */
 
 @media (max-width: 960px) {
