@@ -39,6 +39,8 @@ header {
 h1 {
   font-size: 3.5em;
   font-family: 'Titillium Web', Geneva, Tahoma, sans-serif;
+  background-color: #031C3B;
+  width: 350px;
 }
 
 h2,
@@ -313,8 +315,8 @@ input[type=tel] {
 
 /* General formatting */
 mark {
-  background-color: #031C3B;
-  color: #faebd7;
+  background-color: #031c3bae;
+  color: orange;
 }
 
 .bold {
@@ -476,6 +478,7 @@ mark {
 @media (max-width: 480px) {
   h1 {
     font-size: 2.5em;
+    width: 300px;
   }
 
   h2,
