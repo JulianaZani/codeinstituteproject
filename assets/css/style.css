@@ -299,7 +299,6 @@ input[type=tel] {
 }
 
 /* General formatting */
-
 mark {
   background-color: #031C3B;
   color: #faebd7;
@@ -346,9 +345,7 @@ mark {
 }
 
 /* Media queries */
-
 /* Adjustments for devices smaller than 960px */
-
 @media (max-width: 960px) {
 
   .box-borderradius,
@@ -360,7 +357,6 @@ mark {
 }
 
 /* Adjustments for devices smaller than 768px */
-
 @media (max-width: 768px) {
   h1 {
     font-size: 3em;
@@ -464,7 +460,6 @@ mark {
 }
 
 /* Adjustments for devices smaller than 480px*/
-
 @media (max-width: 480px) {
   h1 {
     font-size: 2.5em;
