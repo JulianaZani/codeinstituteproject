@@ -359,6 +359,13 @@ mark {
 }
 
 /* Media queries */
+/* Adjustments for devices larger than 1920px */
+@media (min-width: 1920px) {
+  html {
+    width: 80%;
+  }
+}
+
 /* Adjustments for devices smaller than 960px */
 @media (max-width: 960px) {
 
