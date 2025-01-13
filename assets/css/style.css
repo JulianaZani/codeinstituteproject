@@ -361,9 +361,12 @@ mark {
 /* Media queries */
 /* Adjustments for devices larger than 1920px */
 @media (min-width: 1920px) {
+
   html {
-    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;    
   }
+
 }
 
 /* Adjustments for devices smaller than 960px */
