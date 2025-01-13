@@ -1,10 +1,14 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-# Project 1
+# KEEPING BIKE
 
 This HTML and CSS project is about a website for selling bicycle mechanic courses.  
 Keeping Bike is the name of the company.  
+This first project of mine is to create a website for a special person, my husband Alencar. He is a bicycle mechanic and in the future he may work as an instructor, selling bike mechanics courses and providing mentoring.  
+He helped choose the more technical images (the 3 in the main into the index.html), as they represent a more specific type of bike knowledge.  
+The image of the transmission kit, for example, is something that relates to the text, as it is a new kit on the current market.
 This website is for presenting what the company offers. The website, in addition to being a presentation tool, is also a way to obtain data from potential customers.  
+
 
 
 ![Amiresponsivesite](assets/images/Screenshot%202025-01-10%20085054.png)  
