@@ -34,7 +34,7 @@ header {
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 2.8em;
   font-family: 'Titillium Web', Geneva, Tahoma, sans-serif;
   background-color: #031C3B;
   width: 350px;
@@ -387,7 +387,7 @@ mark {
 /* Adjustments for devices smaller than 768px */
 @media (max-width: 768px) {
   h1 {
-    font-size: 2.5em;
+    font-size: 2em;
     width: 270px;
   }
   
@@ -491,8 +491,12 @@ mark {
 /* Adjustments for devices smaller than 480px*/
 @media (max-width: 480px) {
   h1 {
-    font-size: 2.3em;
+    font-size: 1.5em;
     width: 200px;
+  }
+
+  p {
+    font-size: small;
   }
 
   .font2em {
