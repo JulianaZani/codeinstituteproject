@@ -186,7 +186,7 @@ footer div a {
 .box-borderradius {
   padding: 3px;
   border-radius: 8px;
-  height: 220px;
+  height: 100%;
   width: auto;
   background-color: #faebd7;
   color: #031C3B;
@@ -198,7 +198,7 @@ footer div a {
 .second-box-borderradius {
   padding: 3px;
   border-radius: 8px;
-  height: 220px;
+  height: 100%;
   width: auto;
   background-color: #faebd7;
   color: #031C3B;
@@ -373,17 +373,6 @@ mark {
 
 }
 
-/* Adjustments for devices smaller than 960px */
-@media (max-width: 960px) {
-  .box-borderradius,
-  .second-box-borderradius {
-    height: 220px;
-    font-size: small;
-    padding: 15px 2px 2px 2px;
-  }
-
-}
-
 /* Adjustments for devices smaller than 768px */
 @media (max-width: 768px) {
   h1 {
@@ -459,15 +448,12 @@ mark {
     position: relative;
   }
 
-  .box-borderradius,
-  .second-box-borderradius {
-    height: 260px;
-    font-size: small;
-    padding: 10px 2px 2px 2px;
-  }
-
   main>section:first-of-type {
     flex-direction: column;
+  }
+
+  .fifty-width-column {
+    width: 80%;
   }
 
   footer>div.uppercase {
@@ -523,14 +509,6 @@ mark {
 
   .gap20px {
     gap: 10px;
-  }
-
-  .box-borderradius,
-  .second-box-borderradius {
-    height: auto;
-    width: 200px;
-    font-size: small;
-    padding: 5px;
   }
 
 }
