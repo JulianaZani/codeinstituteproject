@@ -358,8 +358,8 @@ mark {
 }
 
 /* Media queries */
-/* Adjustments for devices larger than 1920px */
-@media (min-width: 1920px) {
+/* Adjustments for devices larger than 1520px */
+@media (min-width: 1520px) {
   html {
     max-width: 1200px;
     margin: 0 auto;    
