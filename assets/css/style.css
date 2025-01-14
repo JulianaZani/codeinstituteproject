@@ -90,7 +90,6 @@ p {
 }
 
 /* Navegation */
-
 #nav {
   background-color: #031C3B;
   display: flex;
@@ -361,7 +360,6 @@ mark {
 /* Media queries */
 /* Adjustments for devices larger than 1920px */
 @media (min-width: 1920px) {
-
   html {
     max-width: 1200px;
     margin: 0 auto;    
@@ -371,13 +369,13 @@ mark {
 
 /* Adjustments for devices smaller than 960px */
 @media (max-width: 960px) {
-
   .box-borderradius,
   .second-box-borderradius {
     height: 220px;
     font-size: small;
     padding: 15px 2px 2px 2px;
   }
+
 }
 
 /* Adjustments for devices smaller than 768px */
