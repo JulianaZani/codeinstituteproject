@@ -143,23 +143,31 @@ section {
 
 /* Images */
 .img530px {
-  height: 530px;
   width: 100%;
+  height: auto; 
+  max-height: 530px;
+  object-fit: cover;
 }
 
 .img450px {
-  height: 450px;
   width: 100%;
+  height: auto;
+  max-height: 450px;
+  object-fit: cover;
 }
 
 .img400px {
-  height: 400px;
   width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
 }
 
 .img340px {
-  height: 340px;
   width: 100%;
+  height: auto;
+  max-height: 340px;
+  object-fit: cover;
 }
 
 /* Footer */
