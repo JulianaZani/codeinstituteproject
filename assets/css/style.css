@@ -461,6 +461,12 @@ mark {
   }
 
   form {
+    background-image: url(../images/mansittingbesidebikesmaller.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5%;
+    margin-top: 2px;
     font-size: small;
   }
 
