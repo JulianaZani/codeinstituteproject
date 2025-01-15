@@ -400,6 +400,10 @@ mark {
     width: 100%;
   }
 
+  ol li {
+    font-size: small;
+  }
+
   .spacearound-center,
   .spacearound-center-rowreverse {
     flex-direction: column;
