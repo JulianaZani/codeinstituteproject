@@ -528,6 +528,20 @@ mark {
     font-size: 1em;
   }
 
+  #courses-header {
+    background-image: url(../images/winterspinsmaller.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    padding-top: 30px;
+    color: #faebd7;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin-bottom: 1px;
+    max-width: 100%;
+  }
+  
   nav>a {
     font-size: 1em;
     padding: 8px 0;
