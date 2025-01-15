@@ -384,6 +384,10 @@ mark {
     font-size: 1.5em;
   }
 
+  p {
+    font-size: small;
+  }
+
   h2,
   h3 {
     font-size: 1.5em;
@@ -393,22 +397,7 @@ mark {
   #form-header,
   #courses-header {
     height: 300px;
-  }
-
-  .img400px,
-  .img340px {
     width: 100%;
-    height: auto;
-  }
-
-  nav>a {
-    padding: 10px 0;
-  }
-
-  .section500px,
-  .section200px {
-    height: auto;
-    padding: 20px;
   }
 
   .spacearound-center,
@@ -452,12 +441,51 @@ mark {
     flex-direction: column;
   }
 
-  .fifty-width-column {
-    width: 80%;
+  .section500px {
+    height: 400px;
+    width: 100%;
+  }
+
+  .section200px {
+    height: 160px;
+    width: 100%;
+  }  
+  
+  /* Images */
+  .img530px {
+    width: 100%;
+    height: auto; 
+    max-height: 430px;
+    object-fit: cover;
+  }
+  
+  .img450px {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    object-fit: cover;
+  }
+  
+  .img400px {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+  }
+  
+  .img340px {
+    width: 100%;
+    height: auto;
+    max-height: 240px;
+    object-fit: cover;
   }
 
   footer>div.uppercase {
     flex-direction: row;
+  }
+
+  .fifty-width-column {
+    width: 80%;
   }
 
   form {
@@ -485,10 +513,6 @@ mark {
   h1 {
     font-size: 1.5em;
     width: 200px;
-  }
-
-  p {
-    font-size: small;
   }
 
   .font2em {
