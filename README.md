@@ -23,10 +23,11 @@ This website is for presenting what the company offers. The website, in addition
 
 ### Index.html  
 
-Into the header we may see the name of the company and in orange we may check what the company sells (Bike mechanic course).  
+Into the header we may see the name of the company and in orange we may check what the company sells (Bike mechanic course). To provide clarity to website users.  
 In the navegation the users are able to go to courses page (for to see more details about each course), contact section, form to register and to return to home page.  
+Changing the menu to implement drop-down functionality to save space on smaller screens was inspired by the Love Running website developed in the course.  
 
-![Header](assets/images/Screenshot%202025-01-10%20153834.png)  
+![Header](doc/screenshots/screenshot02.png)  
 
 In the first presentation, users who identify with the company's proposal will remain on the website.  
 In main section the users will see more about what the Keeping Bike is offering.  
