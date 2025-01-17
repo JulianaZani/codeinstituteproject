@@ -31,9 +31,10 @@ Changing the menu to implement drop-down functionality to save space on smaller 
 
 In the first presentation, users who identify with the company's proposal will remain on the website.  
 In main section the users will see more about what the Keeping Bike is offering.  
+I put the same filter on all the images on the main page so that this first page would be standardized. I had a lot of difficulty putting them in the appropriate resolution, many errors appeared when I used the Lighthouse extension, but in the end I managed to improve and the score improved.
 The illustrations refer to bicycle parts.  
 
-![Main](assets/images/Screenshot%202025-01-10%20154254.png)  
+![Main](doc/screenshots/screenshot03.png)  
 
 At the end of the main page, users can see a link that directs them to another page (to know more about the course options).  
 
