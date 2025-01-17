@@ -6,12 +6,14 @@ This HTML and CSS project is about a website for selling bicycle mechanic course
 Keeping Bike is the name of the company.  
 This first project of mine is to create a website for a special person, my husband Alencar. He is a bicycle mechanic and in the future he may work as an instructor, selling bike mechanics courses and providing mentoring.  
 He helped choose the more technical images (the 3 in the main into the index.html), as they represent a more specific type of bike knowledge.  
-The image of the transmission kit, for example, is something that relates to the text, as it is a new kit on the current market.
+The image of the transmission kit, for example, is something that relates to the text, as it is a new kit on the current market.  
 The blue color that predominates on the website is his favorite color. And when I talked about the project with him, it gave me an idea of ​​what it will be like in the future when I have to design websites for my future clients.  
 
 ![bluedarkcolor](doc/screenshots/screenshot00.png)  
 
-Other colors used frequently on the site:: Orange and Bege (#faebd7)
+Other colors used frequently on the site:: Bege (#faebd7) and orange.  
+
+Website to show responsiveness: https://ui.dev/amiresponsive  
 
 ![Amiresponsivesite](doc/screenshots/screenshot01.png)  
 
