@@ -49,6 +49,7 @@ At the end of the main page, users can see a link that directs them to another p
 ![MainContinued](doc/screenshots/screenshot06.png)  
 
 Into the footer we have the social media that opens on a separate page.  
+The icons are from the awesome website.  
 
 ![Footer](doc/screenshots/screenshot07.png)  
 
