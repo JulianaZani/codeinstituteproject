@@ -36,6 +36,14 @@ The illustrations refer to bicycle parts.
 
 ![Main](doc/screenshots/screenshot03.png)  
 
+Before:  
+
+![FirstLighthouseResult](doc/screenshots/screenshot04.png)
+
+After:  
+
+![SecondLighthouseResult](doc/screenshots/screenshot05.png)
+
 At the end of the main page, users can see a link that directs them to another page (to know more about the course options).  
 
 ![MainContinued](assets/images/Screenshot%202025-01-10%20154648.png)  
