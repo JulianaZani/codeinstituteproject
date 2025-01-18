@@ -82,4 +82,11 @@ Using the form, when obtaining user information, it will be easier to make perso
 When choosing a background image for the form, to avoid it looking too cluttered, I opted to make the header simpler, but keeping the color pattern.  
 The footer remains the same as on all other pages.  
 
-![FormHeaderAndMain](doc/screenshots/screenshot11.png)
+![FormHeaderAndMain](doc/screenshots/screenshot11.png)  
+
+### Formresponse.html  
+
+Among many of my mentor's instructions, I thought it was great to create a response page for the form. Users will know that the registration was successful.  
+There are also 2 links below, one directing you to the home page and the other to return to the registration page.  
+
+![Formresponse](doc/screenshots/screenshot12.png)
