@@ -76,3 +76,10 @@ The social media footer remains on this page near the contact section as they ar
 
 ![CourseMainAndFooter](doc/screenshots/screenshot10.png)  
 
+### Form.html  
+
+Using the form, when obtaining user information, it will be easier to make personalized contact in the future.  
+When choosing a background image for the form, to avoid it looking too cluttered, I opted to make the header simpler, but keeping the color pattern.  
+The footer remains the same as on all other pages.  
+
+![FormHeaderAndMain](doc/screenshots/screenshot11.png)
