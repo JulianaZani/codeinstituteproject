@@ -74,5 +74,5 @@ To finish the main part of this page we find the contact information.
 Initially I had placed the contact section on the first page, but according to mentor David's guidance (because of the menu layout I created), it was better to change it to the courses page.  
 The social media footer remains on this page near the contact section as they are also forms of contact.  
 
-![CourseMainAndFooter](assets/images/Screenshot%202025-01-10%20163810.png)  
+![CourseMainAndFooter](doc/screenshots/screenshot10.png)  
 
