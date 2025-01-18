@@ -17,7 +17,7 @@ Website to show responsiveness: https://ui.dev/amiresponsive
 
 ![Amiresponsivesite](doc/screenshots/screenshot01.png)  
 
-This website is for presenting what the company offers. The website, in addition to being a presentation tool, is also a way to obtain data from potential customers.  
+Keeping Bike website is for presenting what the company offers. In addition to being a presentation tool, is also a way to obtain data from potential customers.  
 
 ## Features  
 
