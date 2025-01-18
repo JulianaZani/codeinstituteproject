@@ -25,6 +25,7 @@ This website is for presenting what the company offers. The website, in addition
 
 Into the header we may see the name of the company and in orange we may check what the company sells (Bike mechanic course). To provide clarity to website users.  
 In the navegation the users are able to go to courses page (for to see more details about each course), contact section, form to register and to return to home page.  
+I added some formatting to the CSS so that when the cursor hovers over the links, the mouse arrow changes to the shape of a hand and changes the color to orange.  
 Changing the menu to implement drop-down functionality to save space on smaller screens was inspired by the Love Running website developed in the course.  
 
 ![Header](doc/screenshots/screenshot02.png)  
@@ -63,6 +64,8 @@ The first image chosen is from our personal collection. It was a group spin in T
 
 ![CourseHeader](doc/screenshots/screenshot08.png)  
 
+About the layout, the image overlay on this page was completely inspired by the Coders Coffeehouse site.  
+When explaining the basic course, a common image (biker's view) was chosen. When describing the professional course, an image of a professional athlete was chosen. Seeking to illustrate the information with the most appropriate images.  
 The link near the end of the main section directs users to the registration page.  
 
 ![CourseMain](doc/screenshots/screenshot09.png)  
