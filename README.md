@@ -87,6 +87,15 @@ The footer remains the same as on all other pages.
 ### Formresponse.html  
 
 Among many of my mentor's instructions, I thought it was great to create a response page for the form. Users will know that the registration was successful.  
-There are also 2 links below, one directing you to the home page and the other to return to the registration page.  
+There are also 2 links below, one directing them to the home page and the other to return to the registration page.  
 
-![Formresponse](doc/screenshots/screenshot12.png)
+![Formresponse](doc/screenshots/screenshot12.png)  
+
+## Testing  
+
+I tested that this page works in different browsers: Chrome, Safari, Microsoft Edge.  
+I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+I confirmed that the navigation, header, informations, course options, register, form response are all readable and easy to understand.
+I have confirmed that the form works: it requires input in the main fields, it will only accept an email in the email field and numbers in the age field.
+
+### Validator Testing
