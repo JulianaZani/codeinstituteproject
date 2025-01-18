@@ -50,7 +50,7 @@ At the end of the main page, users can see a link that directs them to another p
 
 Into the footer we have the social media that opens on a separate page.  
 The icons are from the awesome website.  
-The copyright was made based on the first website developed in the Five Day Coding Challenge and the Coders Coffeehouse website.
+The copyright was made based on the first website developed in the Five Day Coding Challenge and the Coders Coffeehouse website (Code Institute example sites).
 
 ![Footer](doc/screenshots/screenshot07.png)  
 
@@ -63,9 +63,9 @@ The first image chosen is from our personal collection. It was a group spin in T
 
 ![CourseHeader](doc/screenshots/screenshot08.png)  
 
-The link at the end of the main section directs users to the registration page.  
+The link near the end of the main section directs users to the registration page.  
 
-![CourseMain](assets/images/Screenshot%202025-01-10%20160548.png)  
+![CourseMain](doc/screenshots/screenshot09.png)  
 
 To finish the main part of this page we find the contact information.  
 The social media footer remains on this page near the contact section as they are also forms of contact.  
