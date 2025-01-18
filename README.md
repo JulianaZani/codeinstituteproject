@@ -63,7 +63,7 @@ The first image chosen is from our personal collection. It was a group spin in T
 
 ![CourseHeader](doc/screenshots/screenshot08.png)  
 
-The link to the registration page is at almost the end of the main page, making it easier for users to navigate.  
+The link at the end of the main section directs users to the registration page.  
 
 ![CourseMain](assets/images/Screenshot%202025-01-10%20160548.png)  
 
