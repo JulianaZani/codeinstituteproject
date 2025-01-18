@@ -320,7 +320,7 @@ input[type=tel] {
 /* General formatting */
 mark {
   background-color: #031c3bae;
-  color: orange;
+  color: rgb(235, 131, 5);
 }
 
 .bold {

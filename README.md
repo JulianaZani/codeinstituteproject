@@ -11,7 +11,7 @@ The blue color that predominates on the website is his favorite color. And when 
 
 ![bluedarkcolor](doc/screenshots/screenshot00.png)  
 
-Other colors used frequently on the site:: Bege (#faebd7) and orange.  
+Other colors used frequently on the site:: Bege (#faebd7) and orange rgb(235, 131, 5).  
 
 Website to show responsiveness: https://ui.dev/amiresponsive  
 
