@@ -50,6 +50,7 @@ At the end of the main page, users can see a link that directs them to another p
 
 Into the footer we have the social media that opens on a separate page.  
 The icons are from the awesome website.  
+The copyright was made based on the first website developed in the Five Day Coding Challenge and the Coders Coffeehouse website.
 
 ![Footer](doc/screenshots/screenshot07.png)  
 
@@ -57,9 +58,10 @@ The icons are from the awesome website.
 
 More details about the courses offered by Keeping Bike can be found on this page.  
 The orange header says "courses" so users know which page they are on.  
-The navigation bar is available for all pages.  
+The navigation bar is available for all pages.   
+The first image chosen is from our personal collection. It was a group spin in Ticknock (Ireland).  
 
-![CourseHeader](assets/images/Screenshot%202025-01-10%20160516.png)  
+![CourseHeader](doc/screenshots/screenshot08.png)  
 
 The link to the registration page is at almost the end of the main page, making it easier for users to navigate.  
 
