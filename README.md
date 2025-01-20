@@ -110,26 +110,30 @@ I did not save the screen when the pages was having contrasts problems. I fixed 
 
 After solving some issues with tags and missing aria label (Wave Evolution Tool):  
 
-![WaveAfter](doc/screenshots/screenshot14.png)
+![WaveAfter](doc/screenshots/screenshot14.png)  
 
-Lighthouse results (Desktop and Mobile):  
+In addition to the great difficulty I had in finding the best resolutions for the images (as described previously), I also had this problem (With that, I chose not to use the Google font link in the CSS):  
 
-* Index page
+![IssueLighthouse](doc/screenshots/screenshot23.png) 
+
+**LIGHTHOUSE RESULTS (Desktop and Mobile):**  
+
+* **INDEX PAGE**
 
 ![LighthouseIndexHtmlDesktopResult](doc/screenshots/screenshot15.png)  
 ![LighthouseIndexHtmlMobileResult](doc/screenshots/screenshot16.png)  
 
-* Courses page
+* **COURSES PAGE**
 
 ![LighthouseCoursesHtmlDesktopResult](doc/screenshots/screenshot17.png)  
 ![LighthouseCoursesHtmlMobileResult](doc/screenshots/screenshot18.png)  
 
-* Form page
+* **FORM PAGE**
 
 ![LighthouseFormHtmlDesktopResult](doc/screenshots/screenshot19.png)  
 ![LighthouseFormHtmlMobileResult](doc/screenshots/screenshot20.png)  
 
-* Form Response page
+* **FORM RESPONDE PAGE**
 
 ![LighthouseFormResponseHtmlDesktopResult](doc/screenshots/screenshot21.png)  
 ![LighthouseFormRsponseHtmlMobileResult](doc/screenshots/screenshot22.png)  
