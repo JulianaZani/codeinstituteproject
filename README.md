@@ -104,13 +104,19 @@ There are also 2 links below, one directing them to the home page and the other 
 * CSS - No errors were found when passing through the official (Jigsaw) validator.  
 * Accessibility - I confirmed thet the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools and Wave Evolution Tool.  
 
-I did not save the screen when the pages was having contrasts problems. I fixed it and when I checked again, these problems needed to be solved yet (Wave Evolution Tool):
+I did not save the screen when the pages was having contrasts problems. I fixed it and when I checked again, these problems needed to be solved yet (Wave Evolution Tool - index.html):
 
 ![WaveBefore](doc/screenshots/screenshot13.png)  
 
-After solving some issues with tags and missing aria label (Wave Evolution Tool):  
+After solving some issues with tags and missing aria label (Wave Evolution Tool - index.html):  
 
 ![WaveAfter](doc/screenshots/screenshot14.png)  
+
+**Wave Tool Results (courses.html, form.html and formresponse.html)  
+
+![WaveCousesPage](doc/screenshots/screenshot24.png)  
+![WaveFormPage](doc/screenshots/screenshot25.png)  
+![WaveFormResponsePage](doc/screenshots/screenshot26.png)  
 
 In addition to the great difficulty I had in finding the best resolutions for the images (as described previously), I also had this problem (With that, I chose not to use the Google font link in the CSS):  
 
