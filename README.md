@@ -104,11 +104,11 @@ There are also 2 links below, one directing them to the home page and the other 
 * CSS - No errors were found when passing through the official (Jigsaw) validator.  
 * Accessibility - I confirmed thet the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools and Wave Evolution Tool.  
 
-Before (Wave Evolution Tool):  
+I did not save the screen when the pages was having contrasts problems. I fixed it and when I checked again, these problems needed to be solved yet (Wave Evolution Tool):
 
 ![WaveBefore](doc/screenshots/screenshot13.png)  
 
-After solving some issues with color contrasts, tags and missing aria label: (Wave Evolution Tool):  
+After solving some issues with tags and missing aria label (Wave Evolution Tool):  
 
 ![WaveAfter](doc/screenshots/screenshot14.png)
 
