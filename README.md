@@ -116,12 +116,23 @@ Lighthouse results (Desktop and Mobile):
 
 * Index page
 
-![LighthouseIndexHtmlResultDesktop](doc/screenshots/screenshot15.png)  
-![LighthouseIndexHtmlResultMobile](doc/screenshots/screenshot16.png)  
+![LighthouseIndexHtmlDesktopResult](doc/screenshots/screenshot15.png)  
+![LighthouseIndexHtmlMobileResult](doc/screenshots/screenshot16.png)  
 
+* Courses page
 
+![LighthouseCoursesHtmlDesktopResult](doc/screenshots/screenshot17.png)  
+![LighthouseCoursesHtmlMobileResult](doc/screenshots/screenshot18.png)  
 
+* Form page
 
+![LighthouseFormHtmlDesktopResult](doc/screenshots/screenshot19.png)  
+![LighthouseFormHtmlMobileResult](doc/screenshots/screenshot20.png)  
+
+* Form Response page
+
+![LighthouseFormResponseHtmlDesktopResult](doc/screenshots/screenshot21.png)  
+![LighthouseFormRsponseHtmlMobileResult](doc/screenshots/screenshot22.png)  
 
 ## Deployment  
 
