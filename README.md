@@ -93,9 +93,35 @@ There are also 2 links below, one directing them to the home page and the other 
 
 ## Testing  
 
-I tested that this page works in different browsers: Chrome, Safari, Microsoft Edge.  
-I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
-I confirmed that the navigation, header, informations, course options, register, form response are all readable and easy to understand.
-I have confirmed that the form works: it requires input in the main fields, it will only accept an email in the email field and numbers in the age field.
+* I tested that this page works in different browsers: Chrome, Safari, Microsoft Edge.    
+* I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.  
+* I confirmed that the navigation, header, informations, course options, register, form response are all readable and easy to understand.  
+* I have confirmed that the form works: it requires input in the main fields, it will only accept an email in the email field and numbers in the age field, the submit and reset buttons work.
 
 ### Validator Testing
+
+* HTML - No errors were returned when passing through the official W3C validator.  
+* CSS - No errors were found when passing through the official (Jigsaw) validator.  
+* Accessibility - I confirmed thet the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools and Wave Evolution Tool.  
+
+Before (Wave Evolution Tool):  
+
+![WaveBefore](doc/screenshots/screenshot13.png)  
+
+After solving some issues with color contrasts, tags and missing aria label: (Wave Evolution Tool):  
+
+![WaveAfter](doc/screenshots/screenshot14.png)
+
+Lighthouse results (Desktop and Mobile):  
+
+* Index page
+
+![LighthouseIndexHtmlResultDesktop](doc/screenshots/screenshot15.png)  
+![LighthouseIndexHtmlResultMobile](doc/screenshots/screenshot16.png)  
+
+
+
+
+
+## Deployment  
+
