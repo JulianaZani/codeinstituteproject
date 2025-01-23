@@ -161,6 +161,7 @@ The live link can be found here: https://julianazani.github.io/codeinstituteproj
 * My mentor David Bowers, who gave me a lot of tips in all the mentoring sessions, was patient and guided me.  
 * The Code Institute classes, as the websites presented and explained were the basis for my learning.  
 * The icons in the footer were taken from Font Awesome as I learned on the Love Running website.  
+* I also conducted research using: chatGPT, youtube, google and github.  
 
 ### Media  
 * Some images were from my personal collection: parts.webp and winterspin.webp
