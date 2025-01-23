@@ -112,7 +112,7 @@ After solving some issues with tags and missing aria label (Wave Evolution Tool 
 
 ![WaveAfter](doc/screenshots/screenshot14.png)  
 
-**Wave Tool Results (courses.html, form.html and formresponse.html)  
+**Wave Tool Results (courses.html, form.html and formresponse.html)**  
 
 ![WaveCousesPage](doc/screenshots/screenshot24.png)  
 ![WaveFormPage](doc/screenshots/screenshot25.png)  
