@@ -114,9 +114,13 @@ After solving some issues with tags and missing aria label (Wave Evolution Tool 
 ![WaveAfter](doc/screenshots/screenshot14.png)  
 
 **Wave Tool Results (courses.html, form.html and formresponse.html)**  
-
+**courses.html:**  
 ![WaveCousesPage](doc/screenshots/screenshot24.png)  
+
+**form.html:**  
 ![WaveFormPage](doc/screenshots/screenshot25.png)  
+
+**formresponse.html:**  
 ![WaveFormResponsePage](doc/screenshots/screenshot26.png)  
 
 In addition to the great difficulty I had in finding the best resolutions for the images (as described previously), I also had this problem (With that, I chose not to use the Google font link in the CSS):  
@@ -125,24 +129,36 @@ In addition to the great difficulty I had in finding the best resolutions for th
 
 **LIGHTHOUSE RESULTS (Desktop and Mobile):**  
 
-* **INDEX PAGE**
+* **INDEX PAGE (DESKTOP)**  
 
 ![LighthouseIndexHtmlDesktopResult](doc/screenshots/screenshot15.png)  
+
+* **INDEX PAGE (MOBILE)**  
+
 ![LighthouseIndexHtmlMobileResult](doc/screenshots/screenshot16.png)  
 
-* **COURSES PAGE**
+* **COURSES PAGE (DESKTOP)**  
 
 ![LighthouseCoursesHtmlDesktopResult](doc/screenshots/screenshot17.png)  
+
+* **COURSES PAGE (MOBILE)**  
+
 ![LighthouseCoursesHtmlMobileResult](doc/screenshots/screenshot18.png)  
 
-* **FORM PAGE**
+* **FORM PAGE (DESKTOP)**
 
 ![LighthouseFormHtmlDesktopResult](doc/screenshots/screenshot19.png)  
+
+* **FORM PAGE (MOBILE)**  
+
 ![LighthouseFormHtmlMobileResult](doc/screenshots/screenshot20.png)  
 
-* **FORM RESPONDE PAGE**
+* **FORM RESPONDE PAGE (DESKTOP)**  
 
 ![LighthouseFormResponseHtmlDesktopResult](doc/screenshots/screenshot21.png)  
+
+* **FORM RESPONDE PAGE (MOBILE)**  
+
 ![LighthouseFormRsponseHtmlMobileResult](doc/screenshots/screenshot22.png)  
 
 ## Deployment  
