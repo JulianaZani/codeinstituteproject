@@ -11,7 +11,7 @@ The blue color that predominates on the website is his favorite color. And when 
 
 ![bluedarkcolor](doc/screenshots/screenshot00.png)  
 
-Other colors used frequently on the site:: Bege (#faebd7) and orange rgb(235, 131, 5).  
+Other colors used frequently on the site: Bege (#faebd7) and orange rgb(235, 131, 5).  
 
 Website to show responsiveness: https://ui.dev/amiresponsive  
 
@@ -32,16 +32,17 @@ Changing the menu to implement drop-down functionality to save space on smaller 
 
 In the first presentation, users who identify with the company's proposal will remain on the website.  
 In main section the users will see more about what the Keeping Bike is offering.  
-I put the same filter on all the images on the main page so that this first page would be standardized. I had a lot of difficulty putting them in the appropriate resolution, many errors appeared when I used the Lighthouse extension, but in the end I managed to improve and the score improved.
 The illustrations refer to bicycle parts.  
 
 ![Main](doc/screenshots/screenshot03.png)  
 
-Before:  
+I put the same filter on all the images on the main page so that this first page would be standardized. I had a lot of difficulty putting them in the appropriate resolution, many errors appeared when I used the Lighthouse extension, but in the end I managed to improve and the score improved.  
+
+**Before:**  
 
 ![FirstLighthouseResult](doc/screenshots/screenshot04.png)
 
-After:  
+**After:**  
 
 ![SecondLighthouseResult](doc/screenshots/screenshot05.png)
 
@@ -146,3 +147,24 @@ In addition to the great difficulty I had in finding the best resolutions for th
 
 ## Deployment  
 
+The site was deployed to GitHub pages.  
+The steps to deploy are as follows:
+* In the GitHub repository, navigate to the Settings tab;  
+* From the source section drop-down menu, select the Master Branch;  
+* Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.  
+The live link can be found here: https://julianazani.github.io/codeinstituteproject/  
+
+## Credits  
+
+### Content  
+* The text was helped by my husband, as he knows a lot about bicycles.  
+* My mentor David Bowers, who gave me a lot of tips in all the mentoring sessions, was patient and guided me.  
+* The Code Institute classes, as the websites presented and explained were the basis for my learning.  
+* The icons in the footer were taken from Font Awesome as I learned on the Love Running website.  
+
+### Media  
+* Some images were from my personal collection: parts.webp and winterspin.webp
+* I found the other images on Google Image (As I took the images at the beginning of the project, today I can't find the link for all of them). I chose the Creative Commons licenses search tool:  
+bikeonthestreet.webp - https://images.app.goo.gl/oZ1XtG1eJafdcnjZA  
+axle.webp - https://images.app.goo.gl/GNoTdCvDWksqShZY7  
+mansittingbesidebike.webp - https://images.app.goo.gl/mTtbyJMkuwmuF3C79  
